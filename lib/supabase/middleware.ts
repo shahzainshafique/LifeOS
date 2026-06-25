@@ -29,7 +29,6 @@ export async function updateSession(request: NextRequest){
       if (isAuthPage && user) {
         return NextResponse.redirect(new URL('/dashboard', request.url));
       }
-
       if( isDashboard && !user) {
         return NextResponse.redirect(new URL('/login', request.url));
       }

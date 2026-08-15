@@ -156,3 +156,14 @@
     @apply font-sans;
     }
 }
+
+@keyframes shimmer {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+@keyframes aurora {
+  0%   { transform: translate(-6%, -4%) scale(1); }
+  50%  { transform: translate(6%, 8%) scale(1.18); }
+  100% { transform: translate(-6%, -4%) scale(1); }
+}

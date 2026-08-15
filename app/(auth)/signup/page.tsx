@@ -39,7 +39,7 @@ export default function SignupPage() {
     setIsLoading(false)
 
     if (error) return setError(error.message)
-    router.push('/dashboard')
+    router.push('/now')
   }
 
   return (

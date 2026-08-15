@@ -18,7 +18,7 @@ export default function LoginPage() {
     })
 
     if (error) return setError(error.message)
-    router.push('/dashboard')
+    router.push('/now')
   }
 
   return (

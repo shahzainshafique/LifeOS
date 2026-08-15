@@ -1,0 +1,8 @@
+-- LifeOS seed.
+--
+-- Intentionally empty: all domain rows (entries, memory_items, ...) are owned by
+-- an auth.users row and are created through the app after you sign in. Seeding
+-- fake auth users via SQL is brittle, so we don't. Sign up in the app, then use
+-- the Chat/capture flow to populate data.
+--
+-- (This file exists so `supabase db reset` doesn't warn about a missing seed path.)
